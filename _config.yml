@@ -1,0 +1,4 @@
+name: Truong Van Thanh
+markdonw: rdiscount
+pygments: true
+permalink: :year/:month/:day/:title
