@@ -23,11 +23,11 @@
 	<div class="box block">
 		<div class="title">The Articles Lastest</div>
 		<ul class="navi">
-			<li><a href="#">Responsive design web là gì?</a></li>
-			<li><a href="#">Tìm hiểu về css/sass với thư viện compass</a></li>
-			<li><a href="#">Xu hướng của các designer và front-end dev</a></li>
-			<li><a href="#">20 slideshow ảnh cần cho web</a></li>
-			<li><a href="#">bxslider hữu dụng cho web designer</a></li>
+			{% for post in site.posts %}			
+			<li>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
 		</ul>
 	</div>				
 </div>
