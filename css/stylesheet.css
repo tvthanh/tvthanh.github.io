@@ -267,7 +267,7 @@ p {
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
-  padding: 0 .4em;
+  padding: 10px 15px;
 }
 
 /* line 144, ../sass/partials/_content.scss */
@@ -303,6 +303,7 @@ p {
 /* line 1, ../sass/partials/_syntax.scss */
 .highlight {
   background: #ffffff;
+  margin: 0 0 10px 0;
 }
 
 /* line 2, ../sass/partials/_syntax.scss */
