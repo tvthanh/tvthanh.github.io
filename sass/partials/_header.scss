@@ -1,0 +1,84 @@
+/*================================================================================================
+	Stylesheet SCSS - Header
+==================================================================================================*/
+@font-face {
+	font-family: aachenb;
+	src: url(../fonts/aachenb/aachenb.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: LesserConcern;
+	src: url(../fonts/LesserConcern/LESSERCO.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: hlblong;
+	src: url(../fonts/hlbrush/hlblong.ttf);
+	font-weight: 400;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a { text-decoration: none; color: #333; }
+
+ul { list-style: none; }
+
+body {
+	background: url(/img/bg.jpg) repeat;
+	background-color: rgba(112, 111, 111, 0.5);
+	font-size: 1em;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.2;
+	color: #222;
+}
+
+p {
+	margin: 0 0 10px 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header {
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.branding {
+	width: 82%;
+	float: left;
+	.name {
+		margin: 10px 0;
+		font-family: aachenb;
+		font-size: 4.75em;
+		.brackets {
+			font-family: hlblong;
+			text-align: center;
+			line-height: .5;
+		}
+	}
+	.slogan {
+		font-family: hlblong;
+		font-size: 1.25em;
+		text-align: right;
+		margin: 0 50px 0 0;
+	}
+}
+
+.avatar {
+	width: 17%;
+	float: left;
+	.avatar-me {
+		width: 160px;
+		height: 160px;
+		border-radius: 50% 50%;
+	}
+}
