@@ -1,4 +1,4 @@
 name: Truong Van Thanh
 markdonw: rdiscount
 pygments: true
-permalink: /blog/:year/:month/:day/:title
+permalink: /posts/:title
