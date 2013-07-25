@@ -101,9 +101,9 @@ p {
   border-radius: 50% 50%;
 }
 
-/*================================================================================================
+/*===================================================================================
 	Stylesheet SCSS - Content 
-==================================================================================================*/
+=====================================================================================*/
 /* line 4, ../sass/partials/_content.scss */
 .content {
   padding: 10px 0;
@@ -257,47 +257,86 @@ p {
   background-position: -1px -556px;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
+/*===================================================================================
+	Posts
+=====================================================================================*/
 /* standard */
-/* line 138, ../sass/partials/_content.scss */
+/* line 136, ../sass/partials/_content.scss */
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 10px 15px;
 }
 
-/* line 144, ../sass/partials/_content.scss */
+/* line 142, ../sass/partials/_content.scss */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
 
-/* line 148, ../sass/partials/_content.scss */
+/* line 146, ../sass/partials/_content.scss */
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 154, ../sass/partials/_content.scss */
+/* line 152, ../sass/partials/_content.scss */
 .post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 159, ../sass/partials/_content.scss */
+/* line 157, ../sass/partials/_content.scss */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 165, ../sass/partials/_content.scss */
+/* line 163, ../sass/partials/_content.scss */
 .post pre.terminal code {
   background-color: #333;
+}
+
+/*===================================================================================
+	Pigination
+=====================================================================================*/
+/* line 170, ../sass/partials/_content.scss */
+.pagination {
+  padding: 10px 0;
+  margin: 20px 0 0 0;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 176, ../sass/partials/_content.scss */
+.pagination .previous,
+.pagination .next {
+  width: 40px;
+  float: left;
+  text-align: center;
+}
+/* line 181, ../sass/partials/_content.scss */
+.pagination .pages {
+  margin: 0 10px;
+  float: left;
+}
+/* line 184, ../sass/partials/_content.scss */
+.pagination .pages .page {
+  border-radius: 3px;
+  border: 1px solid #e2e2e2;
+  padding: 3px 7px;
+  margin: -3px 2px 0;
+  float: left;
+}
+/* line 190, ../sass/partials/_content.scss */
+.pagination .pages .page:hover, .pagination .pages .page:focus, .pagination .pages .page.active {
+  background-color: #454B4C;
+  color: #dedede;
+}
+
+/* line 198, ../sass/partials/_content.scss */
+.disqus {
+  margin: 20px 0 0 0;
 }
 
 /* line 1, ../sass/partials/_syntax.scss */

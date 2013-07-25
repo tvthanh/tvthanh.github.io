@@ -2,3 +2,4 @@ name: Truong Van Thanh
 markdonw: rdiscount
 pygments: true
 permalink: /posts/:title
+paginate: 1
